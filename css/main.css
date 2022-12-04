@@ -59,7 +59,7 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
-  vertical-align: top;
+  /* vertical-align: top; */
 }
 
 .container {
@@ -97,8 +97,8 @@ img {
 }
 @media screen and (max-width: 1200px) {
   .portfolio, .clients, .people, .features, .hero-overlay {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -314,11 +314,9 @@ img {
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .footer__box {
-    margin-bottom: 60px;
-  }
-}
+
+
+
 @media screen and (min-width: 1200px) {
   .footer__box {
     width: 231px;
@@ -367,7 +365,7 @@ img {
 
 @media screen and (max-width: 1199px) {
   .footer-social {
-    margin-bottom: 60px;
+    margin-bottom: 94px;
   }
 }
 @media screen and (min-width: 1200px) {
